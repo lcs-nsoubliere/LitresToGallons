@@ -11,6 +11,7 @@
 		C835D0352764F6DE0051E69C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C835D0342764F6DE0051E69C /* ContentView.swift */; };
 		C835D0372764F6E80051E69C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C835D0362764F6E80051E69C /* Assets.xcassets */; };
 		C835D03A2764F6E80051E69C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C835D0392764F6E80051E69C /* Preview Assets.xcassets */; };
+		C835D041276504700051E69C /* PictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C835D040276504700051E69C /* PictureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C835D0342764F6DE0051E69C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C835D0362764F6E80051E69C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C835D0392764F6E80051E69C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C835D040276504700051E69C /* PictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				C835D0322764F6DE0051E69C /* LitresToGallonsApp.swift */,
 				C835D0342764F6DE0051E69C /* ContentView.swift */,
+				C835D040276504700051E69C /* PictureView.swift */,
 				C835D0362764F6E80051E69C /* Assets.xcassets */,
 				C835D0382764F6E80051E69C /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C835D041276504700051E69C /* PictureView.swift in Sources */,
 				C835D0352764F6DE0051E69C /* ContentView.swift in Sources */,
 				C835D0332764F6DE0051E69C /* LitresToGallonsApp.swift in Sources */,
 			);

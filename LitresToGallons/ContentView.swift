@@ -21,7 +21,17 @@ struct ContentView: View {
     // "body" property is only for input and output
     var body: some View {
         
+        
         VStack {
+            
+            HStack {
+                DiagramView(image: "litresToGallons",
+                            horizontalPadding: 0)
+                
+                
+                
+                
+            }
             
             HStack {
                 Text("Litres")
@@ -62,11 +72,13 @@ struct ContentView: View {
                 .padding()
             
             
-            Spacer()
+            
+            
             
         }
-        .padding()
-        .navigationTitle("Litres To Gallon")
+        
+        
+        
     }
 }
 
